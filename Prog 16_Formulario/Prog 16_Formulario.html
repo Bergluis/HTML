@@ -1,0 +1,49 @@
+<!--Prog 16_Formulario
+    19/05/2017
+    Luís Fernando Bergamaschi
+    hiperlinks -->
+<!DOCTYPE html>
+    <html>
+    
+        <head>
+            <meta charset="UTF-8">
+            <title>
+                Prog 16
+            </title>
+        </head>
+        
+        <body>
+            <h2>Faça uma pégina com o seguinte formulário:</h2>
+            <form action="/action_page.php">
+                Nome: <input type="text" name="fname"><BR/><!--Caixas para escrever-->
+                <BR/>
+                Senha: <input type="password" name="lname"><BR/><!--tipo senha-->
+            </form>
+            <BR/>
+            <h3>Qual banda/cantor você prefere?</h3>
+            <BR/>
+            
+            <input type="radio" name="webmaster"/> Kiss<BR/><!--Campo de seleção- webmaster=marcar apenas uma-->
+            <input type="radio" name="webmaster"/> Wesley Safadão<BR/>
+            <input type="radio" name="webmaster"/> Natirruts<BR/>
+            <input type="radio" name="webmaster"/> Bob Marley<BR/>
+            <input type="radio" name="webmaster"/> Aerosmith<BR/>
+            <input type="radio" name="webmaster"/> AC/DC<BR/>
+            <BR/>
+            
+            <form action="">
+                <input type="checkbox" name="opcoes"/>Hoje tem aula de Programação para Internet<BR/><!--checkbox-->
+                <input type="checkbox" name="opcoes"/>Hoje tem Prova<BR/>
+                <input type="submit" value="Enviar"/><BR/><!--Botão enviar-->
+                <p>Arquivo a enviar:</p>
+                <input type="file"/><!--Selecionar arquivo-->
+            </form>
+            
+            <p>Escolha sua cor favorita:</p>
+            <select name="cor"><!--Caixa de opções-->
+                <option value="vermelho" color="red">Redão</option>
+                <option value="vermelho" color="red">Redão</option>
+            </select>
+        </body>
+        
+    </html>
